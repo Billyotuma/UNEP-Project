@@ -1,7 +1,9 @@
 **Project Description**
+
 This is a web-based application designed to manage staff profiles for an organization. It allows users to input personal details, skills, and education levels, as well as view and delete existing staff records. The solution is built using PHP for the backend, MySQL for the database, and HTML/JavaScript for the frontend interface.
 
 **Technologies Used**
+
 -Backend: PHP (Vanilla)
 
 -Database: MySQL
@@ -11,6 +13,7 @@ This is a web-based application designed to manage staff profiles for an organiz
 -Server: Apache (via XAMPP/WAMP)
 
 **Prerequisites**
+
 To run this application locally, you need:
 
 XAMPP (or WAMP/MAMP) installed on your machine.
@@ -18,6 +21,7 @@ XAMPP (or WAMP/MAMP) installed on your machine.
 A web browser (Chrome, Edge, Firefox)
 
 **Installation & Setup Instructions**
+
 Step 1: Clone or Download
 Download the project files or clone the repository.
 
@@ -50,6 +54,7 @@ $username = "root";
 $password = ""; // Default is empty for XAMPP
 $dbname = "staff_portal";
 **How to Run the Application**
+
 Ensure Apache and MySQL are running.
 
 Open your web browser.
@@ -57,6 +62,7 @@ Open your web browser.
 Visit the following URL: http://localhost/staff-app/index.html (Note: Adjust staff-app to match the folder name you created in htdocs)
 
 **Application Credentials**
+
 Since this version of the application is designed for open internal use (per the provided code solution), there is no login wall for the main interface.
 
 Database Access Credentials (Default Local Environment):
@@ -70,6 +76,7 @@ User: root
 Password: (Empty)
 
 **Features**
+
 Add Staff: Form to input Index Number, Name, Email, Location, Duty Station, and Expertise.
 
 View Staff: Dynamic table that fetches and displays all staff records from the database.
